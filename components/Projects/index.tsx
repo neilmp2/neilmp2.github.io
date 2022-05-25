@@ -1,18 +1,17 @@
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Container, Flex, VStack, Box, Heading, Divider, Link } from "@chakra-ui/react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel, Container, Flex, VStack, Box, Heading, Divider, Link, Tag, TagLabel } from "@chakra-ui/react";
 
 const Projects = () => {
   return (
     <Box id="projects">
-      <Flex h="60vh">
+      <Flex h="50vh">
         <VStack w="full" h={"full"} p={10} spacing={4} bg="blue.50">
           <Heading as="h2" size="2xl">
             Projects
           </Heading>
-          <Tabs size="lg">
+          <Tabs size="lg" align="center">
             <TabList>
               <Tab>Malloc Implementation (C)</Tab>
               <Tab>Spotify Vis Dashboard (SQL, Databases, React)</Tab>
-              <Tab>Senior Capstone Design (React, Python)</Tab>
             </TabList>
             <TabPanels>
               <TabPanel>
@@ -34,9 +33,6 @@ const Projects = () => {
                   React using MaterialUI that would serve as a user interface to a MySQL database on my computer. We originally were using a database
                   on Google Cloud Platform, but then we ran out of credits!
                 </p>
-              </TabPanel>
-              <TabPanel>
-                <p>A portion of my team's Senior Design project.</p>
               </TabPanel>
             </TabPanels>
           </Tabs>

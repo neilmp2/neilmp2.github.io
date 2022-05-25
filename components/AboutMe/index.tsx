@@ -12,11 +12,12 @@ const AboutMe = () => {
           <Heading as="h2" size="2xl">
             Hi! I'm Neil ~
           </Heading>
+          <Text>University of Illinois at Urbana-Champaign</Text>
           <Text>B.S Agricultural and Biological Engineering | Minor of Computer Science | Dec 2022</Text>
           <Text w="75%">
-            A year into my degree, I decided to explore robotics and bioinformat ics specialization, where I discovered that I enjoyed programming and
-            design. I self-taught myself basic machine vision during an internship with the USGS, which catalyzed my journey into software
-            development. My education has been influenced by both "traditional" engineering as well as computer science.{" "}
+            A year into my degree, I decided to explore the computational specialization, where I discovered that I enjoyed programming and design. I
+            self-taught myself basic machine vision during an internship with the USGS, which catalyzed my journey into software development. I'm now
+            finishing up my education, interning and looking for future opportunities.{" "}
           </Text>
           <Heading as="h3" size="lg">
             Current Coursework & Projects

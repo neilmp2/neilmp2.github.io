@@ -17,7 +17,7 @@ export default function Nav() {
         borderStyle={"solid"}
         borderColor={useColorModeValue("gray.200", "gray.900")}>
         <Flex display={{ base: "none", md: "flex" }}>
-          <DesktopNav />s
+          <DesktopNav />
         </Flex>
       </Flex>
     </Box>
@@ -34,14 +34,14 @@ const DesktopNav = () => {
               About Me
             </Text>
           </Link>
-          <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
-            <Text cursor="pointer" _hover={{ color: "blue" }}>
-              Projects
-            </Text>
-          </Link>
           <Link activeClass="active" to="experience" spy={true} smooth={true} duration={1000}>
             <Text cursor="pointer" _hover={{ color: "blue" }}>
               Experience
+            </Text>
+          </Link>
+          <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
+            <Text cursor="pointer" _hover={{ color: "blue" }}>
+              Projects
             </Text>
           </Link>
         </Stack>

@@ -1,5 +1,5 @@
 import { Box, chakra, Container, Stack, Text, useColorModeValue, VisuallyHidden } from "@chakra-ui/react";
-import { FaInstagram, FaTwitter, FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { ReactNode } from "react";
 
 const SocialButton = ({ children, label, href }: { children: ReactNode; label: string; href: string }) => {
@@ -37,6 +37,7 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}>
         <Text>Made in React using Chakra-UI components :) </Text>
+        <Text>Contact: neilpatel1100@gmail.com</Text>
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"Linkedin"} href={"https://www.linkedin.com/in/neilmp2/"}>
             <FaLinkedin />
