@@ -3,8 +3,8 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel, Container, Flex, VStack, Box, 
 const Projects = () => {
   return (
     <Box id="projects">
-      <Flex h="50vh">
-        <VStack w="full" h={"full"} p={10} spacing={4} bg="blue.50">
+      <Flex bg="blue.50" py="2rem" minH={{ base: '100vh', lg: '60vh' }}>
+        <VStack w="full" h={"full"} p={10} spacing={4}>
           <Heading as="h2" size="2xl">
             Projects
           </Heading>
