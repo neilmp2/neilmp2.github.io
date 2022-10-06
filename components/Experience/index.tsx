@@ -3,8 +3,8 @@ import { Heading, Text, Flex, Box, VStack, Divider } from "@chakra-ui/react";
 const Experience = () => {
   return (
     <Box id="experience" padding={0}>
-      <Flex h="70vh">
-        <VStack w="full" h={"full"} p={10} spacing={4} bg="green.50">
+      <Flex py="2rem" bg="green.50">
+        <VStack w="full" h={"full"} p={10} spacing={4}>
           <Heading as="h2" size="2xl">
             Work Experience
           </Heading>
